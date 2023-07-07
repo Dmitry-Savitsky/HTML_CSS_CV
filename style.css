@@ -46,3 +46,42 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li::before {
+    text-decoration: none;
+    content: "• ";
+    color: black;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 20px 0;
+    padding-left: 20px;
+    border-left: 3px solid gray;
+  }
+  
+  code {
+    display: block;
+    background-color: #e84a913d;
+    ;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .container img {
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.3);
+  }
